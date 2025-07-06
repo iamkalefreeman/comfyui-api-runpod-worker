@@ -1,6 +1,6 @@
 FROM brandnewx/comfyui-kontext-flux:api-latest
 
-ENV RUNPOD_REQUEST_TIMEOUT=600
+ENV RUNPOD_REQUEST_TIMEOUT=120
 
 # Install necessary packages and Python 3.10
 RUN apt-get update && apt-get upgrade -y && \
